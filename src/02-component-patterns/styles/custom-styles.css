@@ -12,6 +12,16 @@
 }
 
 .btn-white {
-    border-color: white;
-    color: white;
+  border-color: white;
+  color: white;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.custom-buttons button,
+.custom-buttons div {
+  color: white;
+  border-color: white;
 }

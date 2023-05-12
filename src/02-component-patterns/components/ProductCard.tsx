@@ -1,4 +1,4 @@
-import { createContext, ReactElement } from 'react';
+import { createContext, ReactElement, CSSProperties } from 'react';
 import { Product, ProductContextProps } from '../interfaces/interfaces';
 import { useProduct } from '../hooks/useProduct';
 
@@ -8,6 +8,7 @@ export interface Props {
   children?: ReactElement | ReactElement[];
   className?: string;
   product: Product;
+  style?: React.CSSProperties;
 }
 
 export const ProductContext = createContext({} as ProductContextProps);
