@@ -22,3 +22,16 @@ export interface ProductCardComponentProps {
   Image: (Props: ProductImageProps) => ReactElement;
   Buttons: (Props: ProductButtonsProps) => ReactElement;
 }
+
+export interface onChangeArgs {
+  product: Product;
+  count: number;
+}
+
+export interface ProductInCart extends Product {
+  count: number;
+}
+
+export interface ShoppingCart {
+  [key: string]: ProductInCart;
+}

@@ -22,6 +22,12 @@
 
 .custom-buttons button,
 .custom-buttons div {
-  color: white;
   border-color: white;
+  color: white;
+}
+
+.shopping-cart {
+  position: fixed;
+  right: 10px;
+  top: 0px;
 }
