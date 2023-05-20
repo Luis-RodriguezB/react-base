@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import '../styles/styles.css';
 
 
-export const FormikYupPages = () => {
+export const FormikYupPage = () => {
   const { values, errors, touched, handleChange, handleSubmit, handleBlur } =
     useFormik({
       initialValues: {

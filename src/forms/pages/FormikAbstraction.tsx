@@ -1,4 +1,4 @@
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 
 import '../styles/styles.css';
@@ -20,7 +20,7 @@ enum JobType {
 export const FormikAbstraction = () => {
   return (
     <div>
-      <h1>Formik Yup</h1>
+      <h1>Formik Abstract</h1>
 
       <Formik
         initialValues={{
@@ -76,12 +76,7 @@ export const FormikAbstraction = () => {
               label='Last Name'
             />
 
-            <InputField
-              id='email'
-              name='email'
-              type='email'
-              label='Email'
-            />
+            <InputField id='email' name='email' type='email' label='Email' />
 
             <SelectField id='jobType' name='jobType' label='Job Type'>
               <option value=''>Choose Job Type</option>

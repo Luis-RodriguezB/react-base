@@ -19,7 +19,7 @@ enum JobType {
 export const FormikComponents = () => {
   return (
     <div>
-      <h1>Formik Yup</h1>
+      <h1>Formik Components</h1>
 
       <Formik
         initialValues={{

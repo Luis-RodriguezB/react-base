@@ -7,7 +7,7 @@ interface FormValues {
   email: string;
 }
 
-export const FormikBasicPages = () => {
+export const FormikBasicPage = () => {
   const validate = ({ firstName, lastName, email }: FormValues) => {
     const errors: FormikErrors<FormValues> = {};
 
